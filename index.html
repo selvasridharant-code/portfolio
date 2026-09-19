@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selvasridharan T | AI & DS Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="grid"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                SELVA<span>.DEV</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()" aria-label="Toggle navigation">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="small-title">
+                    Hello, <img src="https://cdn-icons-png.flaticon.com/128/9971/9971673.png" alt="wave icon" class="wave-icon"> I'm
+                </p>
+                <h1>Selva<span>Sridharan</span></h1>
+                <h2>AI &amp; Data Science Student</h2>
+                <p class="hero-text">
+                    I love building intelligent applications, creative websites, and solving real-world problems with modern technologies.
+                </p>
+                <div class="buttons">
+                    <a href="#projects" class="btn primary">View Projects &rarr;</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/selvasridharant-code" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/selva-sridharan-t-283942424?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="circle outer-circle"></div>
+                <div class="circle middle-circle"></div>
+
+                <div class="profile-frame">
+                    <img src="profile.png" alt="Selvasridharan T" class="profile-img">
+                    <div class="profile-status">
+                        <span class="status-dot"></span>
+                        <span>AI &amp; DS Student</span>
+                    </div>
+                </div>
+
+                <div class="floating-card card1">
+                    <span class="card-icon">🐍</span>
+                    <span>Python</span>
+                </div>
+                <div class="floating-card card2">
+                    <span class="card-icon">☁️</span>
+                    <span>Cloud Engineer</span>
+                </div>
+                <div class="floating-card card3">
+                    <span class="card-icon">💻</span>
+                    <span>Full Stack Developer</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-title">
+                <p>WHO AM I?</p>
+                <h2>About<span>Me</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="about-card">
+                    <div class="card-badge">01</div>
+                    <h3>AI Enthusiast</h3>
+                    <p>
+                        I'm passionate about Artificial Intelligence, machine learning, cloud computing, and data analytics to solve real-world problems.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="card-badge">02</div>
+                    <h3>Web Developer</h3>
+                    <p>
+                        I enjoy creating sleek, responsive modern web applications using HTML, CSS, JavaScript, and Django.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="card-badge">03</div>
+                    <h3>Problem Solver</h3>
+                    <p>
+                        I believe coding is not just writing lines of code; it is finding elegant, impactful solutions through innovation.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-title">
+                <p>MY TECHNOLOGY</p>
+                <h2>My<span>Skills</span></h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-top">
+                        <span>Python</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-top">
+                        <span>JavaScript</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-top">
+                        <span>HTML / CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-top">
+                        <span>Django</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-top">
+                        <span>Cloud Computing &amp; AI</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-title">
+                <p>MY WORK</p>
+                <h2>Featured<span>Projects</span></h2>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-number">01</div>
+                    <div class="project-icon">📚</div>
+                    <h3>Book Material Platform</h3>
+                    <p>A Django-based platform where students can seamlessly upload, browse, view, and download educational study materials.</p>
+                    <div class="tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>Frontend</span>
+                    </div>
+                    <a href="https://github.com/selvasridharant-code" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-icon">🚢</div>
+                    <h3>Shipping Hub</h3>
+                    <p>A web platform developed to optimize logistics operations and provide benefits and management support for shipping employees.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://github.com/selvasridharant-code/Shipping-hub" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-icon">🍲</div>
+                    <h3>Namba Veetu Saapadu</h3>
+                    <p>An e-commerce food delivery platform enabling users to order authentic home-cooked meals at affordable prices with fast delivery.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>E-Commerce</span>
+                    </div>
+                    <a href="https://github.com/selvasridharant-code/Namba-veetu-saapadu" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="section-title">
+                <p>MY JOURNEY</p>
+                <h2>Education</h2>
+            </div>
+            <div class="education-card">
+                <div class="education-year">2026 - 2030</div>
+                <div>
+                    <h3>B.Tech Artificial Intelligence &amp; Data Science</h3>
+                    <p>KGISL Institute of Technology</p>
+                    <small>Anna University, Coimbatore, Tamil Nadu</small>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-content">
+                <p>HAVE A PROJECT IN MIND?</p>
+                <h2>
+                    Let's Build Something
+                    <span>Amazing</span>
+                </h2>
+                <p class="contact-text">
+                    I am always interested in learning, creating, and collaborating on new ideas. Feel free to reach out anytime!
+                </p>
+                <div class="contact-email-box">
+                    <span class="email-label">Email:</span>
+                    <a href="mailto:selvasridharant@gmail.com" class="direct-email">selvasridharant@gmail.com</a>
+                </div>
+            </div>
+            <a href="mailto:selvasridharant@gmail.com?subject=Hello%20Selva!%20-%20Portfolio%20Inquiry" class="btn primary send-email-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="email-icon">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Send me an Email
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo">
+            SELVA<span>.DEV</span>
+        </div>
+        <div class="footer-socials">
+            <a href="https://github.com/selvasridharant-code" target="_blank" rel="noopener noreferrer" title="GitHub" class="footer-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/selva-sridharan-t-283942424?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="footer-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+            </a>
+            <a href="mailto:selvasridharant@gmail.com" title="Email" class="footer-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </a>
+        </div>
+        <p>&copy; 2026 Selva Sridharan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
